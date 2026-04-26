@@ -1,1 +1,37 @@
-# Add people here - one YAML document per entry
+- id: person.yosef_yitzchak
+  primary_name: Rabbi Yosef Yitzchak Schneersohn
+  type: person
+  aliases:
+    - Rabbi Yosef Yitzchak Schneersohn
+    - the Rayatz
+    - the Rebbe Rayatz
+    - the Frierdiker Rebbe
+    - Yosef Yitzchak
+  born: "1880-06-21"
+  died: "1950-01-28"
+  description: |
+    Sixth Rebbe of Lubavitch, 1920–1950. Subject of the biography.
+
+- id: person.shalom_dovber
+  primary_name: Rabbi Shalom Dovber Schneersohn
+  type: person
+  aliases:
+    - Rabbi Shalom Dovber Schneersohn
+    - the Rashab
+    - the Rebbe Rashab
+  born: "1860-10-20"
+  died: "1920-03-21"
+  description: |
+    Fifth Rebbe of Lubavitch, 1882–1920. Father of Rabbi Yosef Yitzchak.
+
+- id: person.menachem_mendel
+  primary_name: Rabbi Menachem Mendel Schneersohn
+  type: person
+  aliases:
+    - Rabbi Menachem Mendel Schneersohn
+    - the Rebbe
+    - the Lubavitcher Rebbe
+  born: "1902-04-18"
+  died: "1994-06-12"
+  description: |
+    Seventh Rebbe of Lubavitch, 1951–1994. Son-in-law of Rabbi Yosef Yitzchak.

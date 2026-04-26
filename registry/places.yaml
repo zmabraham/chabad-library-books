@@ -1,1 +1,18 @@
-# Add places here - one YAML document per entry
+- id: place.lubavitch
+  primary_name: Lubavitch
+  type: place
+  aliases:
+    - Lyubavichi
+  description: |
+    Historic town in present-day Russia, center of Chabad Lubavitch for 102 years.
+  coordinates: [54.0167, 31.4167]
+  place_type: town
+
+- id: place.rostov
+  primary_name: Rostov
+  type: place
+  aliases:
+    - Rostov-on-Don
+  description: |
+    City in southern Russia where the Rebbe Rayatz was exiled.
+  place_type: city

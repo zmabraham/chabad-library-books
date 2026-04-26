@@ -1,1 +1,10 @@
-# Add events here - one YAML document per entry
+- id: event.shpalerka_arrest_1927
+  primary_name: Arrest at Shpalerka
+  type: event
+  date:
+    gregorian: "1927-06-15"
+    hebrew: "15 Sivan 5687"
+  place_id: place.leningrad
+  description: |
+    The Rebbe Rayatz was arrested by Soviet authorities at the Shpalerka
+    prison in Leningrad.

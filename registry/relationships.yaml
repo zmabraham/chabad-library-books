@@ -1,1 +1,11 @@
-# Add relationships here - one YAML document per entry
+- from: person.yosef_yitzchak
+  rel: succeeded
+  to: person.shalom_dovber
+
+- from: person.menachem_mendel
+  rel: succeeded
+  to: person.yosef_yitzchak
+
+- from: person.yosef_yitzchak
+  rel: father_in_law
+  to: person.menachem_mendel

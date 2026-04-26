@@ -1,1 +1,14 @@
-# Add chapters here - one YAML document per entry
+- num: 1
+  title: The Early Years
+  first: 19
+  last: 45
+
+- num: 2
+  title: Assuming Leadership
+  first: 46
+  last: 78
+
+- num: 3
+  title: The Soviet Period
+  first: 79
+  last: 120
