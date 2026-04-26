@@ -1,10 +1,35 @@
-- id: event.shpalerka_arrest_1927
-  primary_name: Arrest at Shpalerka
+- id: event.arrest_1927
   type: event
+  primary_name: 1927 Arrest
+  aliases:
+    - Soviet arrest
+    - imprisonment
   date:
     gregorian: "1927-06-15"
     hebrew: "15 Sivan 5687"
   place_id: place.leningrad
   description: |
-    The Rebbe Rayatz was arrested by Soviet authorities at the Shpalerka
-    prison in Leningrad.
+    The Rayatz was arrested by Soviet authorities and sentenced to death,
+    later commuted to exile.
+
+- id: event.exile_1927
+  type: event
+  primary_name: Exile from Soviet Union
+  aliases:
+    - expulsion
+    - forced exile
+  date:
+    gregorian: "1927-10-03"
+  description: |
+    After international pressure, the Rayatz was exiled from the Soviet Union.
+
+- id: event.escapes_ww2
+  type: event
+  primary_name: Escape from Nazi Europe
+  aliases:
+    - flight from Poland
+    - wartime escape
+  date:
+    gregorian: "1940"
+  description: |
+    The Rayatz and his family escaped from Nazi-occupied Europe to America.

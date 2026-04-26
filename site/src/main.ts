@@ -1,98 +1,74 @@
 /**
- * Undaunted Knowledge System - Main Application
- *
- * A three-layer knowledge system:
- * 1. Tagged source text
- * 2. Curated entity index
- * 3. Derived wiki/knowledge graph
+ * Undaunted Knowledge System - Main Viewer
+ * A three-layer knowledge system: Source → Index → Wiki
  */
 
-// Entity type definitions
-export type EntityType = 'person' | 'place' | 'event' | 'concept' | 'quote' | 'time';
-
-export interface Entity {
+// Type definitions
+interface Entity {
   id: string;
   type: EntityType;
   primary_name: string;
   aliases: string[];
   description: string;
-}
-
-export interface Person extends Entity {
-  type: 'person';
   born?: string;
   died?: string;
 }
 
-export interface Place extends Entity {
-  type: 'place';
-  coordinates?: [number, number];
-}
-
-export interface Event extends Entity {
-  type: 'event';
-  date?: { gregorian?: string; hebrew?: string };
-  place_id?: string;
-}
-
-export interface Quote extends Entity {
-  type: 'quote';
-  speaker?: string;
+interface Page {
+  pdf_page: number;
+  book_page: number;
+  chapter: number;
   text: string;
+  tags: TagSpan[];
 }
 
-export interface Relationship {
-  from: string;
-  rel: string;
-  to: string;
+interface TagSpan {
+  start: number;
+  end: number;
+  entity_id: string | null;
 }
 
-export interface Chapter {
+interface Chapter {
   num: number;
   title: string;
   first: number;
   last: number;
 }
 
-export interface Manifest {
+interface Manifest {
   version: string;
-  git_sha?: string;
   page_range: [number, number];
   entity_count: number;
   wiki_ids: string[];
 }
 
-// App state
-interface AppState {
-  manifest: Manifest | null;
-  entities: Entity[];
-  relationships: Relationship[];
-  chapters: Chapter[];
-  selectedEntity: string | null;
-  selectedChapter: number | null;
-}
+// Application State
+class UndauntedApp {
+  private manifest: Manifest | null = null;
+  private entities: Entity[] = [];
+  private chapters: Chapter[] = [];
+  private pages: Map<number, Page> = new Map();
+  private selectedEntity: string | null = null;
+  private filterType: EntityType | 'all' = 'all';
 
-class App {
-  private state: AppState = {
-    manifest: null,
-    entities: [],
-    relationships: [],
-    chapters: [],
-    selectedEntity: null,
-    selectedChapter: null
+  // Color palette
+  private readonly colors = {
+    person: '#4A6FA5',
+    place: '#8B7355',
+    event: '#C45C3E',
+    time: '#6B8E4F',
+    quote: '#7B6B8E',
+    concept: '#A67C52'
   };
 
-  constructor() {
-    this.init();
-  }
-
-  private async init() {
+  async init() {
     try {
       await this.loadManifest();
       await this.loadEntities();
       await this.loadChapters();
-      await this.loadRelationships();
+      await this.loadPages();
       this.render();
+      this.setupFilters();
     } catch (error) {
       this.showError('Failed to load data');
       console.error(error);
@@ -102,123 +78,200 @@ class App {
   private async loadManifest() {
     const response = await fetch('/data/manifest.json');
     if (!response.ok) throw new Error('Failed to load manifest');
-    this.state.manifest = await response.json();
+    this.manifest = await response.json();
   }
 
   private async loadEntities() {
     const response = await fetch('/data/entities.json');
     if (!response.ok) throw new Error('Failed to load entities');
-    this.state.entities = await response.json();
+    this.entities = await response.json();
   }
 
   private async loadChapters() {
     const response = await fetch('/data/chapters.json');
     if (!response.ok) throw new Error('Failed to load chapters');
-    this.state.chapters = await response.json();
+    this.chapters = await response.json();
   }
 
-  private async loadRelationships() {
-    const response = await fetch('/data/relationships.json');
-    if (!response.ok) throw new Error('Failed to load relationships');
-    this.state.relationships = await response.json();
+  private async loadPages() {
+    // For now, load the chapter files we have
+    for (let i = 0; i < 12; i++) {
+      try {
+        const response = await fetch(`/corpus/chapter_${i}.txt`);
+        if (response.ok) {
+          const text = await response.text();
+          const page: Page = {
+            pdf_page: i + 19,
+            book_page: i + 1,
+            chapter: i,
+            text: text,
+            tags: this.tagPage(text)
+          };
+          this.pages.set(i, page);
+        }
+      } catch (e) {
+        console.log(`Could not load chapter ${i}`);
+      }
+    }
+  }
+
+  private tagPage(text: string): TagSpan[] {
+    const tags: TagSpan[] = [];
+    const tagPatterns = {
+      'person.yosef_yitzchak': ['Rabbi Yosef Yitzchak', 'Yosef Yitzchak', 'the Rayatz', 'The Rayatz', 'Rayatz'],
+      'person.shalom_dovber': ['Rabbi Shalom Dovber', 'the Rashab', 'The Rashab', 'Rashab'],
+      'person.menachem_mendel': ['Rabbi Menachem Mendel', 'the Ramash', 'The Ramash', 'Ramash'],
+      'place.lubavitch': ['Lubavitch', 'Lyubavichi'],
+      'place.warsaw': ['Warsaw'],
+      'place.new_york': ['New York'],
+      'time.1927': ['1927'],
+      'time.1940': ['1940']
+    };
+
+    for (const [entityId, patterns] of Object.entries(tagPatterns)) {
+      for (const pattern of patterns) {
+        let start = 0;
+        while (true) {
+          const idx = text.indexOf(pattern, start);
+          if (idx === -1) break;
+          tags.push({
+            start: idx,
+            end: idx + pattern.length,
+            entity_id: entityId
+          });
+          start = idx + pattern.length;
+        }
+      }
+    }
+
+    return tags;
+  }
+
+  private render() {
+    this.updateStats();
+    this.renderEntityList();
+    this.renderSourceText();
+  }
+
+  private updateStats() {
+    const stats = document.getElementById('stats')!;
+    stats.textContent = `${this.entities.length} entities • ${this.chapters.length} chapters • ${this.pages.size} pages`;
+  }
+
+  private renderEntityList() {
+    const container = document.getElementById('entity-list')!;
+
+    let filtered = this.entities;
+    if (this.filterType !== 'all') {
+      filtered = this.entities.filter(e => e.type === this.filterType);
+    }
+
+    container.innerHTML = filtered.map(entity => `
+      <div class="entity-item ${this.selectedEntity === entity.id ? 'selected' : ''}"
+           data-entity-id="${entity.id}"
+           onclick="app.selectEntity('${entity.id}')">
+        <div class="entity-name">${entity.primary_name}</div>
+        <div class="entity-type">${entity.type}</div>
+      </div>
+    `).join('');
+  }
+
+  private renderSourceText() {
+    const container = document.getElementById('source-content')!;
+
+    let html = '';
+
+    // Render chapters
+    for (const [num, page] of this.pages) {
+      const chapter = this.chapters.find(ch => ch.num === num);
+
+      html += `
+        <div class="chapter-divider">
+          <div class="chapter-title">${chapter?.title || `Chapter ${num}`}</div>
+        </div>
+        <div class="source-text">${this.renderTaggedText(page)}</div>
+      `;
+    }
+
+    container.innerHTML = html || '<div class="loading">No source text available</div>';
+  }
+
+  private renderTaggedText(page: Page): string {
+    const { text, tags } = page;
+
+    if (!tags || tags.length === 0) {
+      return text;
+    }
+
+    // Sort tags by position (descending)
+    const sortedTags = [...tags].sort((a, b) => b.start - a.start);
+
+    let result = '';
+    let lastEnd = text.length;
+
+    for (const tag of sortedTags) {
+      // Add text after this tag
+      if (tag.end < lastEnd) {
+        result += this.escapeHtml(text.substring(tag.end, lastEnd));
+      }
+
+      // Add the tagged text
+      const taggedText = text.substring(tag.start, tag.end);
+      const entity = this.entities.find(e => e.id === tag.entity_id);
+      const entityType = entity?.type || 'concept';
+      const color = this.colors[entityType as keyof typeof this.colors] || '#666';
+
+      result += `<span class="entity-tag ${entityType}"
+                     data-entity-id="${tag.entity_id}"
+                     style="${this.selectedEntity === tag.entity_id ? 'background:' + color + ' !important;color:white;' : ''}"
+                     onclick="app.selectEntity('${tag.entity_id}')">${taggedText}</span>`;
+
+      lastEnd = tag.start;
+    }
+
+    // Add remaining text
+    result += this.escapeHtml(text.substring(0, lastEnd));
+
+    return result.split('').reverse().join('');
+  }
+
+  private escapeHtml(text: string): string {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  private setupFilters() {
+    const buttons = document.querySelectorAll('.filter-btn');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        this.filterType = (btn.dataset.type || 'all') as EntityType | 'all';
+        this.renderEntityList();
+      });
+    });
+  }
+
+  selectEntity(entityId: string) {
+    this.selectedEntity = this.selectedEntity === entityId ? null : entityId;
+    this.renderEntityList();
+    this.renderSourceText();
   }
 
   private showError(message: string) {
     document.getElementById('app')!.innerHTML = `
-      <div style="padding: 2rem; color: #8B2635;">
-        <h1>Error</h1>
+      <div style="padding: 3rem; text-align: center; color: var(--accent);">
+        <h2>Error</h2>
         <p>${message}</p>
       </div>
     `;
   }
-
-  private render() {
-    const app = document.getElementById('app')!;
-
-    // Color palette from spec
-    const colors = {
-      editorial: '#F4EFE5',
-      accent: '#8B2635',
-      person: '#4A6FA5',
-      place: '#8B7355',
-      event: '#C45C3E',
-      time: '#6B8E4F',
-      quote: '#7B6B8E',
-      concept: '#A67C52'
-    };
-
-    app.innerHTML = `
-      <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-          background: ${colors.editorial};
-          color: #1a1a1a;
-          line-height: 1.6;
-        }
-        #app {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          min-height: 100vh;
-        }
-        .pane {
-          padding: 2rem;
-          overflow-y: auto;
-        }
-        .source-pane {
-          border-right: 1px solid #d0c8bc;
-        }
-        h1 {
-          color: ${colors.accent};
-          margin-bottom: 1rem;
-        }
-        .stats {
-          font-size: 0.9rem;
-          color: #666;
-          margin-bottom: 1rem;
-        }
-        .chapter-list {
-          list-style: none;
-        }
-        .chapter-list li {
-          padding: 0.5rem;
-          cursor: pointer;
-          border-radius: 4px;
-        }
-        .chapter-list li:hover {
-          background: rgba(139, 38, 53, 0.1);
-        }
-      </style>
-
-      <div class="pane source-pane">
-        <h1>Undaunted Knowledge System</h1>
-        <p class="stats">
-          ${this.state.manifest?.entity_count || 0} entities •
-          ${this.state.chapters.length} chapters
-        </p>
-        <p style="color: #666; font-style: italic;">
-          The source pane requires a local build with the PDF corpus.
-        </p>
-      </div>
-
-      <div class="pane">
-        <h2>Chapters</h2>
-        <ul class="chapter-list">
-          ${this.state.chapters.map(ch => `
-            <li>
-              <strong>Chapter ${ch.num}</strong>: ${ch.title}
-              <br><small>Pages ${ch.first}–${ch.last}</small>
-            </li>
-          `).join('')}
-        </ul>
-      </div>
-    `;
-  }
 }
 
-// Start the app when DOM is ready
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => new App());
-} else {
-  new App();
-}
+// Initialize app
+const app = new UndauntedApp();
+app.init();
+
+// Make app globally accessible for onclick handlers
+(window as any).app = app;

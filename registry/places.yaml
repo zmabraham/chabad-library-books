@@ -1,18 +1,80 @@
 - id: place.lubavitch
-  primary_name: Lubavitch
   type: place
+  primary_name: Lubavitch
   aliases:
     - Lyubavichi
   description: |
-    Historic town in present-day Russia, center of Chabad Lubavitch for 102 years.
-  coordinates: [54.0167, 31.4167]
-  place_type: town
+    Historic town in White Russia, center of Chabad for 102 years.
 
 - id: place.rostov
-  primary_name: Rostov
   type: place
+  primary_name: Rostov
   aliases:
     - Rostov-on-Don
   description: |
-    City in southern Russia where the Rebbe Rayatz was exiled.
-  place_type: city
+    City where the Rayatz was exiled after his arrest.
+
+- id: place.riga
+  type: place
+  primary_name: Riga
+  aliases: []
+  description: |
+    Capital of Latvia, where the Rayatz lived in exile.
+
+- id: place.warsaw
+  type: place
+  primary_name: Warsaw
+  aliases: []
+  description: |
+    Capital of Poland, where the Rayatz lived before WWII.
+
+- id: place.otwock
+  type: place
+  primary_name: Otwock
+  aliases: []
+  description: |
+    Town near Warsaw where the Rayatz established his court.
+
+- id: place.new_york
+  type: place
+  primary_name: New York
+  aliases:
+    - NYC
+    - New York City
+  description: |
+    City where the Rayatz settled after fleeing Europe.
+
+- id: place.brooklyn
+  type: place
+  primary_name: Brooklyn
+  aliases: []
+  description: |
+    Borough of New York, home to 770 Eastern Parkway.
+
+- id: place.russia
+  type: place
+  primary_name: Russia
+  aliases:
+    - Russian Empire
+    - czarist Russia
+    - Soviet Union
+    - USSR
+  description: |
+    Country where the Rayatz was born and faced persecution.
+
+- id: place.poland
+  type: place
+  primary_name: Poland
+  aliases: []
+  description: |
+    Country where the Rayatz lived during the interwar period.
+
+- id: place.america
+  type: place
+  primary_name: United States
+  aliases:
+    - America
+    - USA
+    - U.S.
+  description: |
+    Country where the Rayatz rebuilt his community after fleeing Europe.

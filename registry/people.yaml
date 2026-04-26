@@ -1,37 +1,71 @@
 - id: person.yosef_yitzchak
-  primary_name: Rabbi Yosef Yitzchak Schneersohn
   type: person
+  primary_name: Rabbi Yosef Yitzchak Schneersohn
   aliases:
-    - Rabbi Yosef Yitzchak Schneersohn
-    - the Rayatz
-    - the Rebbe Rayatz
-    - the Frierdiker Rebbe
     - Yosef Yitzchak
+    - The Rayatz
+    - Rayatz
+    - The Rebbe
+    - the Rayatz
+    - the Rebbe
+    - the Frierdiker Rebbe
   born: "1880-06-21"
   died: "1950-01-28"
   description: |
-    Sixth Rebbe of Lubavitch, 1920–1950. Subject of the biography.
+    Sixth Lubavitcher Rebbe, known as the Rayatz or the Frierdiker Rebbe.
+    Led Chabad through the most tumultuous period in Jewish history.
 
 - id: person.shalom_dovber
-  primary_name: Rabbi Shalom Dovber Schneersohn
   type: person
+  primary_name: Rabbi Shalom Dovber Schneersohn
   aliases:
-    - Rabbi Shalom Dovber Schneersohn
-    - the Rashab
-    - the Rebbe Rashab
+    - Shalom Dovber
+    - The Rashab
+    - Rashab
+    - The Rebbe Rashab
   born: "1860-10-20"
   died: "1920-03-21"
   description: |
-    Fifth Rebbe of Lubavitch, 1882–1920. Father of Rabbi Yosef Yitzchak.
+    Fifth Lubavitcher Rebbe, father of Rabbi Yosef Yitzchak.
 
 - id: person.menachem_mendel
-  primary_name: Rabbi Menachem Mendel Schneersohn
   type: person
+  primary_name: Rabbi Menachem Mendel Schneersohn
   aliases:
-    - Rabbi Menachem Mendel Schneersohn
-    - the Rebbe
-    - the Lubavitcher Rebbe
+    - Menachem Mendel
+    - The Ramash
+    - Ramash
+    - the Ramash
+    - the seventh Rebbe
   born: "1902-04-18"
   died: "1994-06-12"
   description: |
-    Seventh Rebbe of Lubavitch, 1951–1994. Son-in-law of Rabbi Yosef Yitzchak.
+    Seventh Lubavitcher Rebbe, son-in-law of Rabbi Yosef Yitzchak.
+
+- id: person.shmaryahu_gurary
+  type: person
+  primary_name: Rabbi Shmaryahu Gurary
+  aliases:
+    - The Rashag
+    - Rashag
+    - the Rashag
+  description: |
+    Eldest son-in-law of Rabbi Yosef Yitzchak.
+
+- id: person.mushka
+  type: person
+  primary_name: Rebbetzin Mushka Schneersohn
+  aliases:
+    - Mushka
+    - Shterna Sara
+  description: |
+    Wife of Rabbi Yosef Yitzchak.
+
+- id: person.levi_yitzchok
+  type: person
+  primary_name: Rabbi Levi Yitzchok Schneersohn
+  aliases:
+    - Levi Yitzchok
+    - R. Levi Yitzchok
+  description: |
+    Father of Rabbi Yosef Yitzchak, son of the Rashab.

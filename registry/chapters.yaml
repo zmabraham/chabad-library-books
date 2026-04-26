@@ -1,14 +1,62 @@
-- num: 1
-  title: The Early Years
+# Book chapters with page ranges (PDF pages)
+# The book spans PDF pages 19-381 (363 book pages)
+
+- num: 0
+  title: Preface
   first: 19
-  last: 45
+  last: 30
+
+- num: 1
+  title: Lubavitch
+  first: 31
+  last: 60
 
 - num: 2
-  title: Assuming Leadership
-  first: 46
-  last: 78
+  title: Tomchei Temimim
+  first: 61
+  last: 100
 
 - num: 3
-  title: The Soviet Period
-  first: 79
-  last: 120
+  title: The Secret Covenant
+  first: 101
+  last: 110
+
+- num: 4
+  title: Armed Men at Midnight
+  first: 111
+  last: 150
+
+- num: 5
+  title: Exile to Riga
+  first: 151
+  last: 190
+
+- num: 6
+  title: The Royal Wedding
+  first: 191
+  last: 220
+
+- num: 7
+  title: The Voyage
+  first: 221
+  last: 230
+
+- num: 8
+  title: Poland – Starting Anew
+  first: 231
+  last: 280
+
+- num: 9
+  title: The World Is Shattered
+  first: 281
+  last: 330
+
+- num: 10
+  title: America Iz Nisht Anderesh
+  first: 331
+  last: 360
+
+- num: 11
+  title: A Global Vision
+  first: 361
+  last: 381

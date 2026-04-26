@@ -1,1 +1,29 @@
-# Add times here - one YAML document per entry
+- id: time.1891
+  type: time
+  primary_name: "1891"
+  aliases: []
+  description: Year of the yarmarka incident (age 11)
+
+- id: time.1920
+  type: time
+  primary_name: "1920"
+  aliases: []
+  description: Year the Rayatz became Rebbe
+
+- id: time.1927
+  type: time
+  primary_name: "1927"
+  aliases: []
+  description: Year of arrest and exile
+
+- id: time.1940
+  type: time
+  primary_name: "1940"
+  aliases: []
+  description: Year of arrival in America
+
+- id: time.1950
+  type: time
+  primary_name: "1950"
+  aliases: []
+  description: Year of the Rayatz's passing

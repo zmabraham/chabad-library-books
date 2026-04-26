@@ -1,11 +1,27 @@
-- from: person.yosef_yitzchak
-  rel: succeeded
-  to: person.shalom_dovber
-
-- from: person.menachem_mendel
-  rel: succeeded
-  to: person.yosef_yitzchak
-
-- from: person.yosef_yitzchak
-  rel: father_in_law
-  to: person.menachem_mendel
+from: person.yosef_yitzchak
+rel: succeeded
+to: person.shalom_dovber
+---
+from: person.menachem_mendel
+rel: succeeded
+to: person.yosef_yitzchak
+---
+from: person.shalom_dovber
+rel: father
+to: person.yosef_yitzchak
+---
+from: person.yosef_yitzchak
+rel: father_in_law
+to: person.menachem_mendel
+---
+from: person.shmaryahu_gurary
+rel: son_in_law
+to: person.yosef_yitzchak
+---
+from: person.mushka
+rel: wife
+to: person.yosef_yitzchak
+---
+from: event.exile_1927
+rel: caused_by
+to: event.arrest_1927
