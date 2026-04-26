@@ -1,0 +1,3114 @@
+[
+  {
+    "id": "person.avraham_schneersohn",
+    "type": "person",
+    "primary_name": "Avraham Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.dina_schneersohn",
+    "type": "person",
+    "primary_name": "Dina Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.dovber_schneersohn",
+    "type": "person",
+    "primary_name": "Dovber Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 8 times in the text",
+    "mention_count": 8
+  },
+  {
+    "id": "person.fishel_schneersohn",
+    "type": "person",
+    "primary_name": "Fishel Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.isaac_schneersohn",
+    "type": "person",
+    "primary_name": "Isaac Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.joseph_hyman",
+    "type": "person",
+    "primary_name": "Joseph Hyman",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.joseph_isaac",
+    "type": "person",
+    "primary_name": "Joseph Isaac",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.joseph_rosen",
+    "type": "person",
+    "primary_name": "Joseph Rosen",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.joseph_schneersohn",
+    "type": "person",
+    "primary_name": "Joseph Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.joseph_soloveitchik",
+    "type": "person",
+    "primary_name": "Joseph Soloveitchik",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.menachem_mendel",
+    "type": "person",
+    "primary_name": "Menachem Mendel",
+    "aliases": [],
+    "description": "Mentioned 60 times in the text",
+    "mention_count": 60
+  },
+  {
+    "id": "person.mendel_schneersohn",
+    "type": "person",
+    "primary_name": "Mendel Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.noach_schneersohn",
+    "type": "person",
+    "primary_name": "Noach Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_adin_even",
+    "type": "person",
+    "primary_name": "Rabbi Adin Even",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_aharon_kotler",
+    "type": "person",
+    "primary_name": "Rabbi Aharon Kotler",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_akiva",
+    "type": "person",
+    "primary_name": "Rabbi Akiva",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_althaus",
+    "type": "person",
+    "primary_name": "Rabbi Althaus",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_asher_grossman",
+    "type": "person",
+    "primary_name": "Rabbi Asher Grossman",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_ashkenazi",
+    "type": "person",
+    "primary_name": "Rabbi Ashkenazi",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_avraham_goldin",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Goldin",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_avraham_mordechai",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Mordechai",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_avraham_schneersohn",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_avraham_weingarten",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Weingarten",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_avraham_yitzchak",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Yitzchak",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_avrohom_holzberg",
+    "type": "person",
+    "primary_name": "Rabbi Avrohom Holzberg",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_bar",
+    "type": "person",
+    "primary_name": "Rabbi Bar",
+    "aliases": [],
+    "description": "Mentioned 8 times in the text",
+    "mention_count": 8
+  },
+  {
+    "id": "person.rabbi_baruch_ber",
+    "type": "person",
+    "primary_name": "Rabbi Baruch Ber",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_bentzion_shemtov",
+    "type": "person",
+    "primary_name": "Rabbi Bentzion Shemtov",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_berel_levin",
+    "type": "person",
+    "primary_name": "Rabbi Berel Levin",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_binyamin_gorodetsky",
+    "type": "person",
+    "primary_name": "Rabbi Binyamin Gorodetsky",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_chaim_brisker",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Brisker",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_chaim_gutnick",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Gutnick",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_chaim_heller",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Heller",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_chaim_hodakov",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Hodakov",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_chaim_lieberman",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Lieberman",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_chaim_meir",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Meir",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_chaim_mordechai",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Mordechai",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_chaim_ozer",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Ozer",
+    "aliases": [],
+    "description": "Mentioned 15 times in the text",
+    "mention_count": 15
+  },
+  {
+    "id": "person.rabbi_chaim_schneur",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Schneur",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_chaim_soloveitchik",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Soloveitchik",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_chaim_stein",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Stein",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_david_katzenellenbogen",
+    "type": "person",
+    "primary_name": "Rabbi David Katzenellenbogen",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_dov",
+    "type": "person",
+    "primary_name": "Rabbi Dov",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_dov_ber",
+    "type": "person",
+    "primary_name": "Rabbi Dov Ber",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_dovber",
+    "type": "person",
+    "primary_name": "Rabbi Dovber",
+    "aliases": [],
+    "description": "Mentioned 18 times in the text",
+    "mention_count": 18
+  },
+  {
+    "id": "person.rabbi_dovid_edelman",
+    "type": "person",
+    "primary_name": "Rabbi Dovid Edelman",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_dovid_kamenetsky",
+    "type": "person",
+    "primary_name": "Rabbi Dovid Kamenetsky",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_dovid_rabinowitz",
+    "type": "person",
+    "primary_name": "Rabbi Dovid Rabinowitz",
+    "aliases": [],
+    "description": "Mentioned 11 times in the text",
+    "mention_count": 11
+  },
+  {
+    "id": "person.rabbi_dr",
+    "type": "person",
+    "primary_name": "Rabbi Dr",
+    "aliases": [],
+    "description": "Mentioned 16 times in the text",
+    "mention_count": 16
+  },
+  {
+    "id": "person.rabbi_elchonon",
+    "type": "person",
+    "primary_name": "Rabbi Elchonon",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_elchonon_morozov",
+    "type": "person",
+    "primary_name": "Rabbi Elchonon Morozov",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_eli_rubin",
+    "type": "person",
+    "primary_name": "Rabbi Eli Rubin",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_eliezer_silver",
+    "type": "person",
+    "primary_name": "Rabbi Eliezer Silver",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_eliyahu",
+    "type": "person",
+    "primary_name": "Rabbi Eliyahu",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_eliyahu_althaus",
+    "type": "person",
+    "primary_name": "Rabbi Eliyahu Althaus",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_eliyahu_chaim",
+    "type": "person",
+    "primary_name": "Rabbi Eliyahu Chaim",
+    "aliases": [],
+    "description": "Mentioned 8 times in the text",
+    "mention_count": 8
+  },
+  {
+    "id": "person.rabbi_eliyahu_simpson",
+    "type": "person",
+    "primary_name": "Rabbi Eliyahu Simpson",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_elyashiv_kaploun",
+    "type": "person",
+    "primary_name": "Rabbi Elyashiv Kaploun",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_ephraim_yolles",
+    "type": "person",
+    "primary_name": "Rabbi Ephraim Yolles",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_feigin",
+    "type": "person",
+    "primary_name": "Rabbi Feigin",
+    "aliases": [],
+    "description": "Mentioned 12 times in the text",
+    "mention_count": 12
+  },
+  {
+    "id": "person.rabbi_grodzinski",
+    "type": "person",
+    "primary_name": "Rabbi Grodzinski",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_groner",
+    "type": "person",
+    "primary_name": "Rabbi Groner",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_gurary",
+    "type": "person",
+    "primary_name": "Rabbi Gurary",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_havlin",
+    "type": "person",
+    "primary_name": "Rabbi Havlin",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_hendel",
+    "type": "person",
+    "primary_name": "Rabbi Hendel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_herschel_feigelstock",
+    "type": "person",
+    "primary_name": "Rabbi Herschel Feigelstock",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_herschel_fuchs",
+    "type": "person",
+    "primary_name": "Rabbi Herschel Fuchs",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_hershel_fogelman",
+    "type": "person",
+    "primary_name": "Rabbi Hershel Fogelman",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_hertz",
+    "type": "person",
+    "primary_name": "Rabbi Hertz",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_herzog",
+    "type": "person",
+    "primary_name": "Rabbi Herzog",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_hodakov",
+    "type": "person",
+    "primary_name": "Rabbi Hodakov",
+    "aliases": [],
+    "description": "Mentioned 11 times in the text",
+    "mention_count": 11
+  },
+  {
+    "id": "person.rabbi_isaac_herzog",
+    "type": "person",
+    "primary_name": "Rabbi Isaac Herzog",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_israel_baal",
+    "type": "person",
+    "primary_name": "Rabbi Israel Baal",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_jacobson",
+    "type": "person",
+    "primary_name": "Rabbi Jacobson",
+    "aliases": [],
+    "description": "Mentioned 14 times in the text",
+    "mention_count": 14
+  },
+  {
+    "id": "person.rabbi_joseph",
+    "type": "person",
+    "primary_name": "Rabbi Joseph",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_joseph_isaac",
+    "type": "person",
+    "primary_name": "Rabbi Joseph Isaac",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_kaplan",
+    "type": "person",
+    "primary_name": "Rabbi Kaplan",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_katzenellenbogen",
+    "type": "person",
+    "primary_name": "Rabbi Katzenellenbogen",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_kipnis",
+    "type": "person",
+    "primary_name": "Rabbi Kipnis",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_kook",
+    "type": "person",
+    "primary_name": "Rabbi Kook",
+    "aliases": [],
+    "description": "Mentioned 16 times in the text",
+    "mention_count": 16
+  },
+  {
+    "id": "person.rabbi_lazaroff",
+    "type": "person",
+    "primary_name": "Rabbi Lazaroff",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_leib_kramer",
+    "type": "person",
+    "primary_name": "Rabbi Leib Kramer",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_leibel_groner",
+    "type": "person",
+    "primary_name": "Rabbi Leibel Groner",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_levi_yitzchak",
+    "type": "person",
+    "primary_name": "Rabbi Levi Yitzchak",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_meir_ashkenazi",
+    "type": "person",
+    "primary_name": "Rabbi Meir Ashkenazi",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_meir_shapiro",
+    "type": "person",
+    "primary_name": "Rabbi Meir Shapiro",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_menachem",
+    "type": "person",
+    "primary_name": "Rabbi Menachem",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_menachem_mendel",
+    "type": "person",
+    "primary_name": "Rabbi Menachem Mendel",
+    "aliases": [],
+    "description": "Mentioned 55 times in the text",
+    "mention_count": 55
+  },
+  {
+    "id": "person.rabbi_mendel",
+    "type": "person",
+    "primary_name": "Rabbi Mendel",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_mendel_futerfas",
+    "type": "person",
+    "primary_name": "Rabbi Mendel Futerfas",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_mendel_rothstein",
+    "type": "person",
+    "primary_name": "Rabbi Mendel Rothstein",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_mendel_zak",
+    "type": "person",
+    "primary_name": "Rabbi Mendel Zak",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_mendlowitz",
+    "type": "person",
+    "primary_name": "Rabbi Mendlowitz",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_michoel_dvorkin",
+    "type": "person",
+    "primary_name": "Rabbi Michoel Dvorkin",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_mordechai_ashkenazi",
+    "type": "person",
+    "primary_name": "Rabbi Mordechai Ashkenazi",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_mordechai_cheifetz",
+    "type": "person",
+    "primary_name": "Rabbi Mordechai Cheifetz",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_mordechai_dubin",
+    "type": "person",
+    "primary_name": "Rabbi Mordechai Dubin",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_mordechai_gutnick",
+    "type": "person",
+    "primary_name": "Rabbi Mordechai Gutnick",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_morozov",
+    "type": "person",
+    "primary_name": "Rabbi Morozov",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_moshe_chaim",
+    "type": "person",
+    "primary_name": "Rabbi Moshe Chaim",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_moshe_dovber",
+    "type": "person",
+    "primary_name": "Rabbi Moshe Dovber",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_moshe_feinstein",
+    "type": "person",
+    "primary_name": "Rabbi Moshe Feinstein",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_moshe_rosenblum",
+    "type": "person",
+    "primary_name": "Rabbi Moshe Rosenblum",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_moshe_soloveichik",
+    "type": "person",
+    "primary_name": "Rabbi Moshe Soloveichik",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_nachum_greenwald",
+    "type": "person",
+    "primary_name": "Rabbi Nachum Greenwald",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_nachum_kaplan",
+    "type": "person",
+    "primary_name": "Rabbi Nachum Kaplan",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_nissan_mindel",
+    "type": "person",
+    "primary_name": "Rabbi Nissan Mindel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_nissan_telushkin",
+    "type": "person",
+    "primary_name": "Rabbi Nissan Telushkin",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_pevsner",
+    "type": "person",
+    "primary_name": "Rabbi Pevsner",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_pinchas_hirschsprung",
+    "type": "person",
+    "primary_name": "Rabbi Pinchas Hirschsprung",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_popko",
+    "type": "person",
+    "primary_name": "Rabbi Popko",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_rafael_kahn",
+    "type": "person",
+    "primary_name": "Rabbi Rafael Kahn",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_revel",
+    "type": "person",
+    "primary_name": "Rabbi Revel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_schneersohn",
+    "type": "person",
+    "primary_name": "Rabbi Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 36 times in the text",
+    "mention_count": 36
+  },
+  {
+    "id": "person.rabbi_schneur_zalman",
+    "type": "person",
+    "primary_name": "Rabbi Schneur Zalman",
+    "aliases": [],
+    "description": "Mentioned 29 times in the text",
+    "mention_count": 29
+  },
+  {
+    "id": "person.rabbi_schneursohn",
+    "type": "person",
+    "primary_name": "Rabbi Schneursohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shalom_ber",
+    "type": "person",
+    "primary_name": "Rabbi Shalom Ber",
+    "aliases": [],
+    "description": "Mentioned 17 times in the text",
+    "mention_count": 17
+  },
+  {
+    "id": "person.rabbi_shalom_dovber",
+    "type": "person",
+    "primary_name": "Rabbi Shalom Dovber",
+    "aliases": [],
+    "description": "Mentioned 22 times in the text",
+    "mention_count": 22
+  },
+  {
+    "id": "person.rabbi_shalom_mendel",
+    "type": "person",
+    "primary_name": "Rabbi Shalom Mendel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shapiro",
+    "type": "person",
+    "primary_name": "Rabbi Shapiro",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_she",
+    "type": "person",
+    "primary_name": "Rabbi She",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shemtov",
+    "type": "person",
+    "primary_name": "Rabbi Shemtov",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shimon_elituv",
+    "type": "person",
+    "primary_name": "Rabbi Shimon Elituv",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shimon_glitzenstein",
+    "type": "person",
+    "primary_name": "Rabbi Shimon Glitzenstein",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shimon_lazaroff",
+    "type": "person",
+    "primary_name": "Rabbi Shimon Lazaroff",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shlomo_aharon",
+    "type": "person",
+    "primary_name": "Rabbi Shlomo Aharon",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shlomo_leib",
+    "type": "person",
+    "primary_name": "Rabbi Shlomo Leib",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_shlomo_yosef",
+    "type": "person",
+    "primary_name": "Rabbi Shlomo Yosef",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_shmaryahu_gurary",
+    "type": "person",
+    "primary_name": "Rabbi Shmaryahu Gurary",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_shmaryahu_noach",
+    "type": "person",
+    "primary_name": "Rabbi Shmaryahu Noach",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_shmuel",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel",
+    "aliases": [],
+    "description": "Mentioned 45 times in the text",
+    "mention_count": 45
+  },
+  {
+    "id": "person.rabbi_shmuel_betzalel",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Betzalel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shmuel_gronem",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Gronem",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shmuel_gurary",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Gurary",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shmuel_kaplan",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Kaplan",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shmuel_knopfler",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Knopfler",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_shmuel_kuselewitz",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Kuselewitz",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_shmuel_levitin",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Levitin",
+    "aliases": [],
+    "description": "Mentioned 15 times in the text",
+    "mention_count": 15
+  },
+  {
+    "id": "person.rabbi_shmuel_schneersohn",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_shmuel_zalmanov",
+    "type": "person",
+    "primary_name": "Rabbi Shmuel Zalmanov",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_sholom_ber",
+    "type": "person",
+    "primary_name": "Rabbi Sholom Ber",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_sholom_dovber",
+    "type": "person",
+    "primary_name": "Rabbi Sholom Dovber",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_sholom_posner",
+    "type": "person",
+    "primary_name": "Rabbi Sholom Posner",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_shraga_feivel",
+    "type": "person",
+    "primary_name": "Rabbi Shraga Feivel",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_simon_jacobson",
+    "type": "person",
+    "primary_name": "Rabbi Simon Jacobson",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_slonim",
+    "type": "person",
+    "primary_name": "Rabbi Slonim",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_soloveitchik",
+    "type": "person",
+    "primary_name": "Rabbi Soloveitchik",
+    "aliases": [],
+    "description": "Mentioned 8 times in the text",
+    "mention_count": 8
+  },
+  {
+    "id": "person.rabbi_sonnenfeld",
+    "type": "person",
+    "primary_name": "Rabbi Sonnenfeld",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_stephen",
+    "type": "person",
+    "primary_name": "Rabbi Stephen",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_weinberg",
+    "type": "person",
+    "primary_name": "Rabbi Weinberg",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_yaakov",
+    "type": "person",
+    "primary_name": "Rabbi Yaakov",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_yaakov_yisrael",
+    "type": "person",
+    "primary_name": "Rabbi Yaakov Yisrael",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yechezkel",
+    "type": "person",
+    "primary_name": "Rabbi Yechezkel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yechezkel_feigin",
+    "type": "person",
+    "primary_name": "Rabbi Yechezkel Feigin",
+    "aliases": [],
+    "description": "Mentioned 10 times in the text",
+    "mention_count": 10
+  },
+  {
+    "id": "person.rabbi_yechiel_yaakov",
+    "type": "person",
+    "primary_name": "Rabbi Yechiel Yaakov",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yehoshua_mondshine",
+    "type": "person",
+    "primary_name": "Rabbi Yehoshua Mondshine",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_yehuda_leib",
+    "type": "person",
+    "primary_name": "Rabbi Yehuda Leib",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_yisrael_baal",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Baal",
+    "aliases": [],
+    "description": "Mentioned 11 times in the text",
+    "mention_count": 11
+  },
+  {
+    "id": "person.rabbi_yisrael_jacobson",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Jacobson",
+    "aliases": [],
+    "description": "Mentioned 36 times in the text",
+    "mention_count": 36
+  },
+  {
+    "id": "person.rabbi_yisrael_meir",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Meir",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_yisrael_meisel",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Meisel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yisrael_noach",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Noach",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yisrael_salanter",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Salanter",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_yisrael_zuber",
+    "type": "person",
+    "primary_name": "Rabbi Yisrael Zuber",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_yitzchak_hendel",
+    "type": "person",
+    "primary_name": "Rabbi Yitzchak Hendel",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.rabbi_yitzchak_horowitz",
+    "type": "person",
+    "primary_name": "Rabbi Yitzchak Horowitz",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yitzchok_groner",
+    "type": "person",
+    "primary_name": "Rabbi Yitzchok Groner",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yoel_kahn",
+    "type": "person",
+    "primary_name": "Rabbi Yoel Kahn",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_yosef",
+    "type": "person",
+    "primary_name": "Rabbi Yosef",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yosef_chaim",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Chaim",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_yosef_dov",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Dov",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_yosef_rosen",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Rosen",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_yosef_wineberg",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Wineberg",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_yosef_yitzchak",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Yitzchak",
+    "aliases": [],
+    "description": "Mentioned 28 times in the text",
+    "mention_count": 28
+  },
+  {
+    "id": "person.rabbi_yosef_yozel",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Yozel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yosef_zevin",
+    "type": "person",
+    "primary_name": "Rabbi Yosef Zevin",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yossi_keller",
+    "type": "person",
+    "primary_name": "Rabbi Yossi Keller",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_yossi_paltiel",
+    "type": "person",
+    "primary_name": "Rabbi Yossi Paltiel",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_zalman_aharon",
+    "type": "person",
+    "primary_name": "Rabbi Zalman Aharon",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.rabbi_zalman_duchman",
+    "type": "person",
+    "primary_name": "Rabbi Zalman Duchman",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text",
+    "mention_count": 4
+  },
+  {
+    "id": "person.rabbi_zalman_gurary",
+    "type": "person",
+    "primary_name": "Rabbi Zalman Gurary",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.rabbi_zalman_havlin",
+    "type": "person",
+    "primary_name": "Rabbi Zalman Havlin",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_zalman_hertzl",
+    "type": "person",
+    "primary_name": "Rabbi Zalman Hertzl",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_zalman_moshe",
+    "type": "person",
+    "primary_name": "Rabbi Zalman Moshe",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rabbi_zelig_slonim",
+    "type": "person",
+    "primary_name": "Rabbi Zelig Slonim",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.rabbi_zevulun_charlop",
+    "type": "person",
+    "primary_name": "Rabbi Zevulun Charlop",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.ramash",
+    "type": "person",
+    "primary_name": "Ramash",
+    "aliases": [],
+    "description": "Mentioned 137 times in the text",
+    "mention_count": 137
+  },
+  {
+    "id": "person.rashab",
+    "type": "person",
+    "primary_name": "Rashab",
+    "aliases": [],
+    "description": "Mentioned 259 times in the text",
+    "mention_count": 259
+  },
+  {
+    "id": "person.rashag",
+    "type": "person",
+    "primary_name": "Rashag",
+    "aliases": [],
+    "description": "Mentioned 40 times in the text",
+    "mention_count": 40
+  },
+  {
+    "id": "person.rayatz",
+    "type": "person",
+    "primary_name": "Rayatz",
+    "aliases": [],
+    "description": "Mentioned 217 times in the text",
+    "mention_count": 217
+  },
+  {
+    "id": "person.raza",
+    "type": "person",
+    "primary_name": "Raza",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.reb_aharon",
+    "type": "person",
+    "primary_name": "Reb Aharon",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_chaim",
+    "type": "person",
+    "primary_name": "Reb Chaim",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text",
+    "mention_count": 3
+  },
+  {
+    "id": "person.reb_chanoch",
+    "type": "person",
+    "primary_name": "Reb Chanoch",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_dovid",
+    "type": "person",
+    "primary_name": "Reb Dovid",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.reb_itche",
+    "type": "person",
+    "primary_name": "Reb Itche",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text",
+    "mention_count": 7
+  },
+  {
+    "id": "person.reb_mendel",
+    "type": "person",
+    "primary_name": "Reb Mendel",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text",
+    "mention_count": 5
+  },
+  {
+    "id": "person.reb_mordechai",
+    "type": "person",
+    "primary_name": "Reb Mordechai",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_moshe",
+    "type": "person",
+    "primary_name": "Reb Moshe",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.reb_nachman",
+    "type": "person",
+    "primary_name": "Reb Nachman",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_nissan",
+    "type": "person",
+    "primary_name": "Reb Nissan",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.reb_saadia",
+    "type": "person",
+    "primary_name": "Reb Saadia",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_shimshon",
+    "type": "person",
+    "primary_name": "Reb Shimshon",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_shmuel",
+    "type": "person",
+    "primary_name": "Reb Shmuel",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.reb_yitzchak",
+    "type": "person",
+    "primary_name": "Reb Yitzchak",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.rebbe",
+    "type": "person",
+    "primary_name": "Rebbe",
+    "aliases": [],
+    "description": "Mentioned 2390 times in the text",
+    "mention_count": 2390
+  },
+  {
+    "id": "person.sara_schneersohn",
+    "type": "person",
+    "primary_name": "Sara Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.shalom_dovber",
+    "type": "person",
+    "primary_name": "Shalom Dovber",
+    "aliases": [],
+    "description": "Mentioned 23 times in the text",
+    "mention_count": 23
+  },
+  {
+    "id": "person.shmuel_schneersohn",
+    "type": "person",
+    "primary_name": "Shmuel Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.the_ramash",
+    "type": "person",
+    "primary_name": "The Ramash",
+    "aliases": [],
+    "description": "Mentioned 31 times in the text",
+    "mention_count": 31
+  },
+  {
+    "id": "person.the_rashab",
+    "type": "person",
+    "primary_name": "The Rashab",
+    "aliases": [],
+    "description": "Mentioned 78 times in the text",
+    "mention_count": 78
+  },
+  {
+    "id": "person.the_rashag",
+    "type": "person",
+    "primary_name": "The Rashag",
+    "aliases": [],
+    "description": "Mentioned 10 times in the text",
+    "mention_count": 10
+  },
+  {
+    "id": "person.the_rayatz",
+    "type": "person",
+    "primary_name": "The Rayatz",
+    "aliases": [],
+    "description": "Mentioned 53 times in the text",
+    "mention_count": 53
+  },
+  {
+    "id": "person.the_raza",
+    "type": "person",
+    "primary_name": "The Raza",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text",
+    "mention_count": 6
+  },
+  {
+    "id": "person.the_rebbe",
+    "type": "person",
+    "primary_name": "The Rebbe",
+    "aliases": [],
+    "description": "Mentioned 645 times in the text",
+    "mention_count": 645
+  },
+  {
+    "id": "person.yehoshua_schneersohn",
+    "type": "person",
+    "primary_name": "Yehoshua Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text",
+    "mention_count": 2
+  },
+  {
+    "id": "person.yitzchak_schneersohn",
+    "type": "person",
+    "primary_name": "Yitzchak Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 14 times in the text",
+    "mention_count": 14
+  },
+  {
+    "id": "person.yosef_yitzchak",
+    "type": "person",
+    "primary_name": "Yosef Yitzchak",
+    "aliases": [],
+    "description": "Mentioned 115 times in the text",
+    "mention_count": 115
+  },
+  {
+    "id": "place.america",
+    "type": "place",
+    "primary_name": "America",
+    "aliases": [],
+    "description": "Mentioned 142 times",
+    "mention_count": 142
+  },
+  {
+    "id": "place.berlin",
+    "type": "place",
+    "primary_name": "Berlin",
+    "aliases": [],
+    "description": "Mentioned 91 times",
+    "mention_count": 91
+  },
+  {
+    "id": "place.brooklyn",
+    "type": "place",
+    "primary_name": "Brooklyn",
+    "aliases": [],
+    "description": "Mentioned 159 times",
+    "mention_count": 159
+  },
+  {
+    "id": "place.lubavitch",
+    "type": "place",
+    "primary_name": "Lubavitch",
+    "aliases": [],
+    "description": "Mentioned 298 times",
+    "mention_count": 298
+  },
+  {
+    "id": "place.new_york",
+    "type": "place",
+    "primary_name": "New York",
+    "aliases": [],
+    "description": "Mentioned 185 times",
+    "mention_count": 185
+  },
+  {
+    "id": "place.otwock",
+    "type": "place",
+    "primary_name": "Otwock",
+    "aliases": [],
+    "description": "Mentioned 55 times",
+    "mention_count": 55
+  },
+  {
+    "id": "place.paris",
+    "type": "place",
+    "primary_name": "Paris",
+    "aliases": [],
+    "description": "Mentioned 60 times",
+    "mention_count": 60
+  },
+  {
+    "id": "place.poland",
+    "type": "place",
+    "primary_name": "Poland",
+    "aliases": [],
+    "description": "Mentioned 215 times",
+    "mention_count": 215
+  },
+  {
+    "id": "place.riga",
+    "type": "place",
+    "primary_name": "Riga",
+    "aliases": [],
+    "description": "Mentioned 253 times",
+    "mention_count": 253
+  },
+  {
+    "id": "place.russia",
+    "type": "place",
+    "primary_name": "Russia",
+    "aliases": [],
+    "description": "Mentioned 560 times",
+    "mention_count": 560
+  },
+  {
+    "id": "place.soviet_union",
+    "type": "place",
+    "primary_name": "Soviet Union",
+    "aliases": [],
+    "description": "Mentioned 83 times",
+    "mention_count": 83
+  },
+  {
+    "id": "place.united_states",
+    "type": "place",
+    "primary_name": "United States",
+    "aliases": [],
+    "description": "Mentioned 84 times",
+    "mention_count": 84
+  },
+  {
+    "id": "place.warsaw",
+    "type": "place",
+    "primary_name": "Warsaw",
+    "aliases": [],
+    "description": "Mentioned 154 times",
+    "mention_count": 154
+  },
+  {
+    "id": "place.white_russia",
+    "type": "place",
+    "primary_name": "White Russia",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1745",
+    "type": "time",
+    "primary_name": "1745",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1773",
+    "type": "time",
+    "primary_name": "1773",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1777",
+    "type": "time",
+    "primary_name": "1777",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1781",
+    "type": "time",
+    "primary_name": "1781",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1788",
+    "type": "time",
+    "primary_name": "1788",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1798",
+    "type": "time",
+    "primary_name": "1798",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1808",
+    "type": "time",
+    "primary_name": "1808",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1812",
+    "type": "time",
+    "primary_name": "1812",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1827",
+    "type": "time",
+    "primary_name": "1827",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1834",
+    "type": "time",
+    "primary_name": "1834",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1838",
+    "type": "time",
+    "primary_name": "1838",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1843",
+    "type": "time",
+    "primary_name": "1843",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1845",
+    "type": "time",
+    "primary_name": "1845",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1846",
+    "type": "time",
+    "primary_name": "1846",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1847",
+    "type": "time",
+    "primary_name": "1847",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1848",
+    "type": "time",
+    "primary_name": "1848",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1850",
+    "type": "time",
+    "primary_name": "1850",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1860",
+    "type": "time",
+    "primary_name": "1860",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1862",
+    "type": "time",
+    "primary_name": "1862",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1863",
+    "type": "time",
+    "primary_name": "1863",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1865",
+    "type": "time",
+    "primary_name": "1865",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1866",
+    "type": "time",
+    "primary_name": "1866",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1869",
+    "type": "time",
+    "primary_name": "1869",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1873",
+    "type": "time",
+    "primary_name": "1873",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1874",
+    "type": "time",
+    "primary_name": "1874",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1875",
+    "type": "time",
+    "primary_name": "1875",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1876",
+    "type": "time",
+    "primary_name": "1876",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1879",
+    "type": "time",
+    "primary_name": "1879",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1880",
+    "type": "time",
+    "primary_name": "1880",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1881",
+    "type": "time",
+    "primary_name": "1881",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1882",
+    "type": "time",
+    "primary_name": "1882",
+    "aliases": [],
+    "description": "Mentioned 10 times",
+    "mention_count": 10
+  },
+  {
+    "id": "time.1883",
+    "type": "time",
+    "primary_name": "1883",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1884",
+    "type": "time",
+    "primary_name": "1884",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1885",
+    "type": "time",
+    "primary_name": "1885",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1886",
+    "type": "time",
+    "primary_name": "1886",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1888",
+    "type": "time",
+    "primary_name": "1888",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1889",
+    "type": "time",
+    "primary_name": "1889",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1890",
+    "type": "time",
+    "primary_name": "1890",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1891",
+    "type": "time",
+    "primary_name": "1891",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1893",
+    "type": "time",
+    "primary_name": "1893",
+    "aliases": [],
+    "description": "Mentioned 10 times",
+    "mention_count": 10
+  },
+  {
+    "id": "time.1895",
+    "type": "time",
+    "primary_name": "1895",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1896",
+    "type": "time",
+    "primary_name": "1896",
+    "aliases": [],
+    "description": "Mentioned 15 times",
+    "mention_count": 15
+  },
+  {
+    "id": "time.1897",
+    "type": "time",
+    "primary_name": "1897",
+    "aliases": [],
+    "description": "Mentioned 17 times",
+    "mention_count": 17
+  },
+  {
+    "id": "time.1898",
+    "type": "time",
+    "primary_name": "1898",
+    "aliases": [],
+    "description": "Mentioned 10 times",
+    "mention_count": 10
+  },
+  {
+    "id": "time.1899",
+    "type": "time",
+    "primary_name": "1899",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1900",
+    "type": "time",
+    "primary_name": "1900",
+    "aliases": [],
+    "description": "Mentioned 9 times",
+    "mention_count": 9
+  },
+  {
+    "id": "time.1901",
+    "type": "time",
+    "primary_name": "1901",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1902",
+    "type": "time",
+    "primary_name": "1902",
+    "aliases": [],
+    "description": "Mentioned 10 times",
+    "mention_count": 10
+  },
+  {
+    "id": "time.1903",
+    "type": "time",
+    "primary_name": "1903",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1904",
+    "type": "time",
+    "primary_name": "1904",
+    "aliases": [],
+    "description": "Mentioned 9 times",
+    "mention_count": 9
+  },
+  {
+    "id": "time.1905",
+    "type": "time",
+    "primary_name": "1905",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1906",
+    "type": "time",
+    "primary_name": "1906",
+    "aliases": [],
+    "description": "Mentioned 15 times",
+    "mention_count": 15
+  },
+  {
+    "id": "time.1907",
+    "type": "time",
+    "primary_name": "1907",
+    "aliases": [],
+    "description": "Mentioned 14 times",
+    "mention_count": 14
+  },
+  {
+    "id": "time.1908",
+    "type": "time",
+    "primary_name": "1908",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1909",
+    "type": "time",
+    "primary_name": "1909",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1910",
+    "type": "time",
+    "primary_name": "1910",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1911",
+    "type": "time",
+    "primary_name": "1911",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1912",
+    "type": "time",
+    "primary_name": "1912",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1913",
+    "type": "time",
+    "primary_name": "1913",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.1914",
+    "type": "time",
+    "primary_name": "1914",
+    "aliases": [],
+    "description": "Mentioned 13 times",
+    "mention_count": 13
+  },
+  {
+    "id": "time.1915",
+    "type": "time",
+    "primary_name": "1915",
+    "aliases": [],
+    "description": "Mentioned 12 times",
+    "mention_count": 12
+  },
+  {
+    "id": "time.1916",
+    "type": "time",
+    "primary_name": "1916",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1917",
+    "type": "time",
+    "primary_name": "1917",
+    "aliases": [],
+    "description": "Mentioned 27 times",
+    "mention_count": 27
+  },
+  {
+    "id": "time.1918",
+    "type": "time",
+    "primary_name": "1918",
+    "aliases": [],
+    "description": "Mentioned 11 times",
+    "mention_count": 11
+  },
+  {
+    "id": "time.1919",
+    "type": "time",
+    "primary_name": "1919",
+    "aliases": [],
+    "description": "Mentioned 13 times",
+    "mention_count": 13
+  },
+  {
+    "id": "time.1920",
+    "type": "time",
+    "primary_name": "1920",
+    "aliases": [],
+    "description": "Mentioned 42 times",
+    "mention_count": 42
+  },
+  {
+    "id": "time.1921",
+    "type": "time",
+    "primary_name": "1921",
+    "aliases": [],
+    "description": "Mentioned 27 times",
+    "mention_count": 27
+  },
+  {
+    "id": "time.1922",
+    "type": "time",
+    "primary_name": "1922",
+    "aliases": [],
+    "description": "Mentioned 19 times",
+    "mention_count": 19
+  },
+  {
+    "id": "time.1923",
+    "type": "time",
+    "primary_name": "1923",
+    "aliases": [],
+    "description": "Mentioned 16 times",
+    "mention_count": 16
+  },
+  {
+    "id": "time.1924",
+    "type": "time",
+    "primary_name": "1924",
+    "aliases": [],
+    "description": "Mentioned 30 times",
+    "mention_count": 30
+  },
+  {
+    "id": "time.1925",
+    "type": "time",
+    "primary_name": "1925",
+    "aliases": [],
+    "description": "Mentioned 17 times",
+    "mention_count": 17
+  },
+  {
+    "id": "time.1926",
+    "type": "time",
+    "primary_name": "1926",
+    "aliases": [],
+    "description": "Mentioned 23 times",
+    "mention_count": 23
+  },
+  {
+    "id": "time.1927",
+    "type": "time",
+    "primary_name": "1927",
+    "aliases": [],
+    "description": "Mentioned 72 times",
+    "mention_count": 72
+  },
+  {
+    "id": "time.1928",
+    "type": "time",
+    "primary_name": "1928",
+    "aliases": [],
+    "description": "Mentioned 60 times",
+    "mention_count": 60
+  },
+  {
+    "id": "time.1929",
+    "type": "time",
+    "primary_name": "1929",
+    "aliases": [],
+    "description": "Mentioned 67 times",
+    "mention_count": 67
+  },
+  {
+    "id": "time.1930",
+    "type": "time",
+    "primary_name": "1930",
+    "aliases": [],
+    "description": "Mentioned 75 times",
+    "mention_count": 75
+  },
+  {
+    "id": "time.1931",
+    "type": "time",
+    "primary_name": "1931",
+    "aliases": [],
+    "description": "Mentioned 27 times",
+    "mention_count": 27
+  },
+  {
+    "id": "time.1932",
+    "type": "time",
+    "primary_name": "1932",
+    "aliases": [],
+    "description": "Mentioned 28 times",
+    "mention_count": 28
+  },
+  {
+    "id": "time.1933",
+    "type": "time",
+    "primary_name": "1933",
+    "aliases": [],
+    "description": "Mentioned 41 times",
+    "mention_count": 41
+  },
+  {
+    "id": "time.1934",
+    "type": "time",
+    "primary_name": "1934",
+    "aliases": [],
+    "description": "Mentioned 23 times",
+    "mention_count": 23
+  },
+  {
+    "id": "time.1935",
+    "type": "time",
+    "primary_name": "1935",
+    "aliases": [],
+    "description": "Mentioned 28 times",
+    "mention_count": 28
+  },
+  {
+    "id": "time.1936",
+    "type": "time",
+    "primary_name": "1936",
+    "aliases": [],
+    "description": "Mentioned 29 times",
+    "mention_count": 29
+  },
+  {
+    "id": "time.1937",
+    "type": "time",
+    "primary_name": "1937",
+    "aliases": [],
+    "description": "Mentioned 20 times",
+    "mention_count": 20
+  },
+  {
+    "id": "time.1938",
+    "type": "time",
+    "primary_name": "1938",
+    "aliases": [],
+    "description": "Mentioned 31 times",
+    "mention_count": 31
+  },
+  {
+    "id": "time.1939",
+    "type": "time",
+    "primary_name": "1939",
+    "aliases": [],
+    "description": "Mentioned 69 times",
+    "mention_count": 69
+  },
+  {
+    "id": "time.1940",
+    "type": "time",
+    "primary_name": "1940",
+    "aliases": [],
+    "description": "Mentioned 78 times",
+    "mention_count": 78
+  },
+  {
+    "id": "time.1941",
+    "type": "time",
+    "primary_name": "1941",
+    "aliases": [],
+    "description": "Mentioned 56 times",
+    "mention_count": 56
+  },
+  {
+    "id": "time.1942",
+    "type": "time",
+    "primary_name": "1942",
+    "aliases": [],
+    "description": "Mentioned 33 times",
+    "mention_count": 33
+  },
+  {
+    "id": "time.1943",
+    "type": "time",
+    "primary_name": "1943",
+    "aliases": [],
+    "description": "Mentioned 47 times",
+    "mention_count": 47
+  },
+  {
+    "id": "time.1944",
+    "type": "time",
+    "primary_name": "1944",
+    "aliases": [],
+    "description": "Mentioned 22 times",
+    "mention_count": 22
+  },
+  {
+    "id": "time.1945",
+    "type": "time",
+    "primary_name": "1945",
+    "aliases": [],
+    "description": "Mentioned 20 times",
+    "mention_count": 20
+  },
+  {
+    "id": "time.1946",
+    "type": "time",
+    "primary_name": "1946",
+    "aliases": [],
+    "description": "Mentioned 30 times",
+    "mention_count": 30
+  },
+  {
+    "id": "time.1947",
+    "type": "time",
+    "primary_name": "1947",
+    "aliases": [],
+    "description": "Mentioned 20 times",
+    "mention_count": 20
+  },
+  {
+    "id": "time.1948",
+    "type": "time",
+    "primary_name": "1948",
+    "aliases": [],
+    "description": "Mentioned 23 times",
+    "mention_count": 23
+  },
+  {
+    "id": "time.1949",
+    "type": "time",
+    "primary_name": "1949",
+    "aliases": [],
+    "description": "Mentioned 14 times",
+    "mention_count": 14
+  },
+  {
+    "id": "time.1950",
+    "type": "time",
+    "primary_name": "1950",
+    "aliases": [],
+    "description": "Mentioned 22 times",
+    "mention_count": 22
+  },
+  {
+    "id": "time.1951",
+    "type": "time",
+    "primary_name": "1951",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1952",
+    "type": "time",
+    "primary_name": "1952",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1953",
+    "type": "time",
+    "primary_name": "1953",
+    "aliases": [],
+    "description": "Mentioned 13 times",
+    "mention_count": 13
+  },
+  {
+    "id": "time.1954",
+    "type": "time",
+    "primary_name": "1954",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1956",
+    "type": "time",
+    "primary_name": "1956",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1957",
+    "type": "time",
+    "primary_name": "1957",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1958",
+    "type": "time",
+    "primary_name": "1958",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1962",
+    "type": "time",
+    "primary_name": "1962",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1963",
+    "type": "time",
+    "primary_name": "1963",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1965",
+    "type": "time",
+    "primary_name": "1965",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1966",
+    "type": "time",
+    "primary_name": "1966",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1967",
+    "type": "time",
+    "primary_name": "1967",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1968",
+    "type": "time",
+    "primary_name": "1968",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1969",
+    "type": "time",
+    "primary_name": "1969",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1970",
+    "type": "time",
+    "primary_name": "1970",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1971",
+    "type": "time",
+    "primary_name": "1971",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1972",
+    "type": "time",
+    "primary_name": "1972",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1974",
+    "type": "time",
+    "primary_name": "1974",
+    "aliases": [],
+    "description": "Mentioned 12 times",
+    "mention_count": 12
+  },
+  {
+    "id": "time.1975",
+    "type": "time",
+    "primary_name": "1975",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1976",
+    "type": "time",
+    "primary_name": "1976",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1977",
+    "type": "time",
+    "primary_name": "1977",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1982",
+    "type": "time",
+    "primary_name": "1982",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1983",
+    "type": "time",
+    "primary_name": "1983",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1984",
+    "type": "time",
+    "primary_name": "1984",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1985",
+    "type": "time",
+    "primary_name": "1985",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1986",
+    "type": "time",
+    "primary_name": "1986",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1987",
+    "type": "time",
+    "primary_name": "1987",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1988",
+    "type": "time",
+    "primary_name": "1988",
+    "aliases": [],
+    "description": "Mentioned 12 times",
+    "mention_count": 12
+  },
+  {
+    "id": "time.1989",
+    "type": "time",
+    "primary_name": "1989",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1990",
+    "type": "time",
+    "primary_name": "1990",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1992",
+    "type": "time",
+    "primary_name": "1992",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.1994",
+    "type": "time",
+    "primary_name": "1994",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.1995",
+    "type": "time",
+    "primary_name": "1995",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.1996",
+    "type": "time",
+    "primary_name": "1996",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.1997",
+    "type": "time",
+    "primary_name": "1997",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1998",
+    "type": "time",
+    "primary_name": "1998",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.1999",
+    "type": "time",
+    "primary_name": "1999",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.2000",
+    "type": "time",
+    "primary_name": "2000",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.2001",
+    "type": "time",
+    "primary_name": "2001",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.2002",
+    "type": "time",
+    "primary_name": "2002",
+    "aliases": [],
+    "description": "Mentioned 12 times",
+    "mention_count": 12
+  },
+  {
+    "id": "time.2003",
+    "type": "time",
+    "primary_name": "2003",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.2004",
+    "type": "time",
+    "primary_name": "2004",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.2005",
+    "type": "time",
+    "primary_name": "2005",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.2006",
+    "type": "time",
+    "primary_name": "2006",
+    "aliases": [],
+    "description": "Mentioned 9 times",
+    "mention_count": 9
+  },
+  {
+    "id": "time.2007",
+    "type": "time",
+    "primary_name": "2007",
+    "aliases": [],
+    "description": "Mentioned 3 times",
+    "mention_count": 3
+  },
+  {
+    "id": "time.2008",
+    "type": "time",
+    "primary_name": "2008",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  },
+  {
+    "id": "time.2009",
+    "type": "time",
+    "primary_name": "2009",
+    "aliases": [],
+    "description": "Mentioned 9 times",
+    "mention_count": 9
+  },
+  {
+    "id": "time.2010",
+    "type": "time",
+    "primary_name": "2010",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.2011",
+    "type": "time",
+    "primary_name": "2011",
+    "aliases": [],
+    "description": "Mentioned 11 times",
+    "mention_count": 11
+  },
+  {
+    "id": "time.2012",
+    "type": "time",
+    "primary_name": "2012",
+    "aliases": [],
+    "description": "Mentioned 15 times",
+    "mention_count": 15
+  },
+  {
+    "id": "time.2014",
+    "type": "time",
+    "primary_name": "2014",
+    "aliases": [],
+    "description": "Mentioned 6 times",
+    "mention_count": 6
+  },
+  {
+    "id": "time.2015",
+    "type": "time",
+    "primary_name": "2015",
+    "aliases": [],
+    "description": "Mentioned 11 times",
+    "mention_count": 11
+  },
+  {
+    "id": "time.2016",
+    "type": "time",
+    "primary_name": "2016",
+    "aliases": [],
+    "description": "Mentioned 9 times",
+    "mention_count": 9
+  },
+  {
+    "id": "time.2017",
+    "type": "time",
+    "primary_name": "2017",
+    "aliases": [],
+    "description": "Mentioned 8 times",
+    "mention_count": 8
+  },
+  {
+    "id": "time.2018",
+    "type": "time",
+    "primary_name": "2018",
+    "aliases": [],
+    "description": "Mentioned 10 times",
+    "mention_count": 10
+  },
+  {
+    "id": "time.2019",
+    "type": "time",
+    "primary_name": "2019",
+    "aliases": [],
+    "description": "Mentioned 11 times",
+    "mention_count": 11
+  },
+  {
+    "id": "time.2020",
+    "type": "time",
+    "primary_name": "2020",
+    "aliases": [],
+    "description": "Mentioned 12 times",
+    "mention_count": 12
+  },
+  {
+    "id": "time.2021",
+    "type": "time",
+    "primary_name": "2021",
+    "aliases": [],
+    "description": "Mentioned 11 times",
+    "mention_count": 11
+  },
+  {
+    "id": "time.2022",
+    "type": "time",
+    "primary_name": "2022",
+    "aliases": [],
+    "description": "Mentioned 7 times",
+    "mention_count": 7
+  },
+  {
+    "id": "time.2023",
+    "type": "time",
+    "primary_name": "2023",
+    "aliases": [],
+    "description": "Mentioned 5 times",
+    "mention_count": 5
+  },
+  {
+    "id": "time.2024",
+    "type": "time",
+    "primary_name": "2024",
+    "aliases": [],
+    "description": "Mentioned 4 times",
+    "mention_count": 4
+  }
+]
