@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/Chabad_His_wiki/',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
