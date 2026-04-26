@@ -4,6 +4,8 @@
  */
 
 // Type definitions
+type EntityType = 'person' | 'place' | 'event' | 'time' | 'quote' | 'concept';
+
 interface Entity {
   id: string;
   type: EntityType;
@@ -44,7 +46,6 @@ interface Manifest {
 
 // Application State
 class UndauntedApp {
-  private manifest: Manifest | null = null;
   private entities: Entity[] = [];
   private chapters: Chapter[] = [];
   private pages: Map<number, Page> = new Map();
@@ -63,7 +64,6 @@ class UndauntedApp {
 
   async init() {
     try {
-      await this.loadManifest();
       await this.loadEntities();
       await this.loadChapters();
       await this.loadPages();
@@ -73,12 +73,6 @@ class UndauntedApp {
       this.showError('Failed to load data');
       console.error(error);
     }
-  }
-
-  private async loadManifest() {
-    const response = await fetch('/data/manifest.json');
-    if (!response.ok) throw new Error('Failed to load manifest');
-    this.manifest = await response.json();
   }
 
   private async loadEntities() {
@@ -247,7 +241,8 @@ class UndauntedApp {
       btn.addEventListener('click', () => {
         buttons.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        this.filterType = (btn.dataset.type || 'all') as EntityType | 'all';
+        const button = btn as HTMLElement;
+        this.filterType = (button.dataset.type || 'all') as EntityType | 'all';
         this.renderEntityList();
       });
     });
