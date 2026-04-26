@@ -1,0 +1,20 @@
+# PDF source (copyrighted, not committed)
+pdf/
+
+# Generated corpus (derivative work, not committed)
+corpus/
+
+# Build outputs
+site/public/data/
+site/dist/
+site/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db

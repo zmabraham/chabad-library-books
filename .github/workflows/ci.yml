@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pyyaml pydantic click
+
+      - name: Validate registry
+        run: |
+          pip install -e pipeline/
+          undaunted validate
+
+      - name: Lint Python
+        run: |
+          pip install black mypy
+          black --check pipeline/
+          mypy pipeline/
+
+  build-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: |
+          cd site
+          npm ci
+
+      - name: Build frontend
+        run: |
+          cd site
+          npm run build
+
+      - name: Type check
+        run: |
+          cd site
+          npx tsc --noEmit
