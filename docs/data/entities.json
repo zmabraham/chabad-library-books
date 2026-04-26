@@ -1,0 +1,352 @@
+[
+  {
+    "id": "person.avraham_schneersohn",
+    "type": "person",
+    "primary_name": "Avraham Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.dina_schneersohn",
+    "type": "person",
+    "primary_name": "Dina Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.dovber_schneersohn",
+    "type": "person",
+    "primary_name": "Dovber Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 8 times in the text"
+  },
+  {
+    "id": "person.fishel_schneersohn",
+    "type": "person",
+    "primary_name": "Fishel Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.isaac_schneersohn",
+    "type": "person",
+    "primary_name": "Isaac Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.joseph_hyman",
+    "type": "person",
+    "primary_name": "Joseph Hyman",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text"
+  },
+  {
+    "id": "person.joseph_isaac",
+    "type": "person",
+    "primary_name": "Joseph Isaac",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.joseph_rosen",
+    "type": "person",
+    "primary_name": "Joseph Rosen",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text"
+  },
+  {
+    "id": "person.joseph_schneersohn",
+    "type": "person",
+    "primary_name": "Joseph Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.joseph_soloveitchik",
+    "type": "person",
+    "primary_name": "Joseph Soloveitchik",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.menachem_mendel",
+    "type": "person",
+    "primary_name": "Menachem Mendel",
+    "aliases": [],
+    "description": "Mentioned 60 times in the text"
+  },
+  {
+    "id": "person.mendel_schneersohn",
+    "type": "person",
+    "primary_name": "Mendel Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.noach_schneersohn",
+    "type": "person",
+    "primary_name": "Noach Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_adin_even",
+    "type": "person",
+    "primary_name": "Rabbi Adin Even",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_aharon_kotler",
+    "type": "person",
+    "primary_name": "Rabbi Aharon Kotler",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_akiva",
+    "type": "person",
+    "primary_name": "Rabbi Akiva",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text"
+  },
+  {
+    "id": "person.rabbi_althaus",
+    "type": "person",
+    "primary_name": "Rabbi Althaus",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text"
+  },
+  {
+    "id": "person.rabbi_asher_grossman",
+    "type": "person",
+    "primary_name": "Rabbi Asher Grossman",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_ashkenazi",
+    "type": "person",
+    "primary_name": "Rabbi Ashkenazi",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text"
+  },
+  {
+    "id": "person.rabbi_avraham_goldin",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Goldin",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_avraham_mordechai",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Mordechai",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_avraham_schneersohn",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Schneersohn",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_avraham_weingarten",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Weingarten",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_avraham_yitzchak",
+    "type": "person",
+    "primary_name": "Rabbi Avraham Yitzchak",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text"
+  },
+  {
+    "id": "person.rabbi_avrohom_holzberg",
+    "type": "person",
+    "primary_name": "Rabbi Avrohom Holzberg",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text"
+  },
+  {
+    "id": "person.rabbi_bar",
+    "type": "person",
+    "primary_name": "Rabbi Bar",
+    "aliases": [],
+    "description": "Mentioned 8 times in the text"
+  },
+  {
+    "id": "person.rabbi_baruch_ber",
+    "type": "person",
+    "primary_name": "Rabbi Baruch Ber",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text"
+  },
+  {
+    "id": "person.rabbi_bentzion_shemtov",
+    "type": "person",
+    "primary_name": "Rabbi Bentzion Shemtov",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_berel_levin",
+    "type": "person",
+    "primary_name": "Rabbi Berel Levin",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_binyamin_gorodetsky",
+    "type": "person",
+    "primary_name": "Rabbi Binyamin Gorodetsky",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_brisker",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Brisker",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_gutnick",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Gutnick",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_heller",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Heller",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_hodakov",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Hodakov",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_lieberman",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Lieberman",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_meir",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Meir",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_mordechai",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Mordechai",
+    "aliases": [],
+    "description": "Mentioned 4 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_ozer",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Ozer",
+    "aliases": [],
+    "description": "Mentioned 15 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_schneur",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Schneur",
+    "aliases": [],
+    "description": "Mentioned 3 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_soloveitchik",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Soloveitchik",
+    "aliases": [],
+    "description": "Mentioned 6 times in the text"
+  },
+  {
+    "id": "person.rabbi_chaim_stein",
+    "type": "person",
+    "primary_name": "Rabbi Chaim Stein",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_david_katzenellenbogen",
+    "type": "person",
+    "primary_name": "Rabbi David Katzenellenbogen",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_dov",
+    "type": "person",
+    "primary_name": "Rabbi Dov",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_dov_ber",
+    "type": "person",
+    "primary_name": "Rabbi Dov Ber",
+    "aliases": [],
+    "description": "Mentioned 7 times in the text"
+  },
+  {
+    "id": "person.rabbi_dovber",
+    "type": "person",
+    "primary_name": "Rabbi Dovber",
+    "aliases": [],
+    "description": "Mentioned 18 times in the text"
+  },
+  {
+    "id": "person.rabbi_dovid_edelman",
+    "type": "person",
+    "primary_name": "Rabbi Dovid Edelman",
+    "aliases": [],
+    "description": "Mentioned 5 times in the text"
+  },
+  {
+    "id": "person.rabbi_dovid_kamenetsky",
+    "type": "person",
+    "primary_name": "Rabbi Dovid Kamenetsky",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  },
+  {
+    "id": "person.rabbi_dovid_rabinowitz",
+    "type": "person",
+    "primary_name": "Rabbi Dovid Rabinowitz",
+    "aliases": [],
+    "description": "Mentioned 11 times in the text"
+  },
+  {
+    "id": "person.rabbi_dr",
+    "type": "person",
+    "primary_name": "Rabbi Dr",
+    "aliases": [],
+    "description": "Mentioned 16 times in the text"
+  },
+  {
+    "id": "person.rabbi_elchonon",
+    "type": "person",
+    "primary_name": "Rabbi Elchonon",
+    "aliases": [],
+    "description": "Mentioned 2 times in the text"
+  }
+]

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undaunted Knowledge System</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --cream: #F4EFE5;
+      --cream-2: #E8E4DA;
+      --ink: #1a1a1a;
+      --ink-2: #4a4a4a;
+      --ink-3: #8a8a8a;
+      --accent: #8B2635;
+      --accent-2: #6B1D28;
+      --person: #4A6FA5;
+      --place: #8B7355;
+      --event: #C45C3E;
+      --time: #6B8E4F;
+      --quote: #7B6B8E;
+      --concept: #A67C52;
+      --selection: rgba(139, 38, 53, 0.2);
+    }
+
+    body {
+      font-family: 'Source Serif Pro', Georgia, 'Times New Roman', serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    #app {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 100vh;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      grid-column: 1 / -1;
+      padding: 2rem 3rem 1rem;
+      border-bottom: 1px solid #d0c8bc;
+    }
+
+    .header h1 {
+      font-size: 1.8rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .stats {
+      font-size: 0.9rem;
+      color: var(--ink-3);
+    }
+
+    /* Panes */
+    .pane {
+      padding: 2rem;
+      overflow-y: auto;
+      max-height: calc(100vh - 120px);
+    }
+
+    .source-pane {
+      border-right: 1px solid #d0c8bc;
+    }
+
+    /* Entity tags */
+    .entity-tag {
+      display: inline;
+      padding: 2px 6px;
+      margin: 0 2px;
+      border-radius: 3px;
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .entity-tag:hover {
+      background: var(--selection) !important;
+    }
+
+    .entity-tag.person { background: rgba(74, 111, 165, 0.15); color: #2a4a65; }
+    .entity-tag.place { background: rgba(139, 115, 85, 0.15); color: #5a4a35; }
+    .entity-tag.event { background: rgba(196, 92, 62, 0.15); color: #6a2a1a; }
+    .entity-tag.time { background: rgba(107, 142, 79, 0.15); color: #2a4a2a; }
+    .entity-tag.quote { background: rgba(123, 107, 142, 0.15); color: #4a3a5a; }
+    .entity-tag.concept { background: rgba(166, 124, 82, 0.15); color: #5a4a2a; }
+
+    .entity-tag.highlighted {
+      background: var(--accent) !important;
+      color: white !important;
+    }
+
+    /* Entity list */
+    .entity-list {
+      list-style: none;
+    }
+
+    .entity-item {
+      padding: 0.75rem;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      margin-bottom: 0.5rem;
+      transition: all 0.2s;
+    }
+
+    .entity-item:hover {
+      background: rgba(139, 38, 53, 0.05);
+      border-left-color: var(--accent);
+    }
+
+    .entity-item.selected {
+      background: var(--selection);
+      border-left-color: var(--accent);
+    }
+
+    .entity-name {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .entity-type {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--ink-3);
+      margin-top: 0.25rem;
+    }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 0.4rem 0.8rem;
+      border: 1px solid #d0c8bc;
+      background: white;
+      cursor: pointer;
+      font-size: 0.85rem;
+      border-radius: 4px;
+      transition: all 0.2s;
+    }
+
+    .filter-btn:hover {
+      border-color: var(--accent);
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    /* Source text */
+    .source-text {
+      font-family: 'Source Serif Pro', Georgia, serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .chapter-divider {
+      margin: 2rem 0;
+      padding: 0.5rem 0;
+      border-top: 1px solid var(--accent);
+      border-bottom: 1px solid var(--accent);
+    }
+
+    .chapter-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Wiki panel */
+    .wiki-panel {
+      background: white;
+      border-radius: 4px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #e0d8cc;
+    }
+
+    .wiki-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .wiki-subtitle {
+      font-style: italic;
+      color: var(--ink-3);
+      margin-bottom: 1rem;
+    }
+
+    .wiki-section {
+      margin-bottom: 1rem;
+    }
+
+    .wiki-section h3 {
+      font-size: 1rem;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+    }
+
+    .wiki-section p {
+      font-size: 0.95rem;
+      color: var(--ink-2);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--ink-3);
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+      #app {
+        grid-template-columns: 1fr;
+      }
+
+      .source-pane {
+        border-right: none;
+        border-bottom: 1px solid #d0c8bc;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index.D-AUvbjw.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>Undaunted Knowledge System</h1>
+      <p class="stats" id="stats">Loading...</p>
+    </div>
+
+    <div class="pane source-pane">
+      <div id="source-content">
+        <div class="loading">Loading source text...</div>
+      </div>
+    </div>
+
+    <div class="pane">
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-type="all">All</button>
+        <button class="filter-btn" data-type="person">People</button>
+        <button class="filter-btn" data-type="place">Places</button>
+        <button class="filter-btn" data-type="event">Events</button>
+        <button class="filter-btn" data-type="time">Times</button>
+      </div>
+
+      <div id="entity-list">
+        <div class="loading">Loading entities...</div>
+      </div>
+
+      <div id="wiki-panel"></div>
+    </div>
+  </div>
+
+</body>
+</html>
